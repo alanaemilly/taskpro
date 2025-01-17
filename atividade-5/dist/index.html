@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>ATIVIDADE 5</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskPro - Gerenciador de Tempo e Produtividade</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>TaskPro</h1>
+        <nav>
+            <ul>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#tarefas">Tarefas</a></li>
+                <li><a href="#metas">Metas</a></li>
+                <li><a href="#relatorios">Relatórios</a></li>
+                <li><a href="#configuracoes">Configurações</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- Dashboard Section -->
+        <section id="dashboard">
+            <h2>Visão Geral</h2>
+            <div class="progress">
+                <h3>Progresso das Tarefas</h3>
+                <div class="progress-bar">
+                    <div style="width: 70%;">70%</div>
+                </div>
+                <h3>Metas Concluídas</h3>
+                <div class="progress-bar">
+                    <div style="width: 50%;">50%</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tarefas Section -->
+      
+      <section id="tarefas">
+    <h2>Lista de Tarefas</h2>
+    <ul>
+        <li>
+            Tarefa 1 - <span>Em andamento</span>
+            <button class="edit-task">Editar</button>
+            <button class="delete-task">Remover</button>
+            <select class="status-task">
+                <option value="Pendente">Pendente</option>
+                <option value="Em andamento" selected>Em andamento</option>
+                <option value="Concluída">Concluída</option>
+            </select>
+        </li>
+    </ul>
+    <form>
+        <input type="text" placeholder="Nova tarefa" required>
+        <button type="submit">Adicionar</button>
+    </form>
+</section>
+
+        <!-- Metas Section -->
+        <section id="metas">
+            <h2>Definição de Metas</h2>
+            <ul>
+                <li>Meta 1: <strong>Concluir projeto</strong> - Prazo: 31/01</li>
+                <li>Meta 2: <strong>Estudar novas ferramentas</strong> - Prazo: 15/02</li>
+            </ul>
+            <form>
+                <input type="text" placeholder="Nova meta" required>
+                <input type="date" required>
+                <button type="submit">Adicionar</button>
+            </form>
+        </section>
+
+        <!-- Relatórios Section -->
+        <section id="relatorios">
+            <h2>Relatórios de Produtividade</h2>
+            <p>Veja um resumo de suas atividades:</p>
+            <ul>
+                <li>Tempo total em tarefas: 15h</li>
+                <li>Metas concluídas: 2 de 4</li>
+            </ul>
+        </section>
+
+        <!-- Configurações Section -->
+        <section id="configuracoes">
+            <h2>Configurações</h2>
+            <p>Personalize o TaskPro de acordo com suas preferências:</p>
+            <label>
+                <input type="checkbox"> Notificações
+            </label>
+            <label>
+                <input type="checkbox"> Tema Escuro
+            </label>
+        </section>
+
+        <!-- Sobre Section -->
+        <section id="sobre">
+            <h2>Sobre o TaskPro</h2>
+            <p>O TaskPro é uma ferramenta completa para gerenciar seu tempo e aumentar a produtividade. Com funcionalidades como listas de tarefas, definição de metas e relatórios detalhados, o TaskPro ajuda você a organizar sua rotina de forma eficiente.</p>
+            <ul>
+                <li>Gerencie suas tarefas diárias, semanais e mensais.</li>
+                <li>Defina metas e acompanhe seu progresso.</li>
+                <li>Receba notificações e lembretes importantes.</li>
+                <li>Integre com seu calendário para uma organização completa.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 TaskPro. Todos os direitos reservados.</p>
+    </footer>
+  
+  
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
